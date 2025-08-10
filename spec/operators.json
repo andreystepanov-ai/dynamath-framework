@@ -1,0 +1,4 @@
+[
+  { "id": "identity", "description": "Identity operator", "arity": 1 },
+  { "id": "normalize", "description": "Normalize embedding", "arity": 1 }
+]

@@ -1,26 +1,20 @@
-/// Entity representation E = ⟨e⃝, S(t), R, F⟩ describing embedding, state, relations and functions.
-#[derive(Debug, Clone)]
+//! Basic types for Dynamath: Entity, State, Relations, Operator.
+
 pub struct Entity {
     pub embedding: Vec<f32>,
     pub state: State,
     pub relations: Relations,
-    pub functions: Vec<Operator>,
+    pub operators: Vec<Operator>,
 }
 
-/// Placeholder for temporal state representation S(t).
-#[derive(Debug, Clone)]
 pub struct State {
-    // TODO: define state fields.
+    // TODO: fields for dynamic state
 }
 
-/// Placeholder for relations graph R.
-#[derive(Debug, Clone)]
 pub struct Relations {
-    // TODO: define relations structure.
+    // TODO: describe relations between entities
 }
 
-/// Placeholder for operators F.
-#[derive(Debug, Clone)]
 pub struct Operator {
-    // TODO: define operator properties.
+    // TODO: define operator metadata
 }

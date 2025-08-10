@@ -1,0 +1,6 @@
+syntax = "proto3";
+package dynamath;
+
+message Entity {
+  repeated float embedding = 1;
+}
