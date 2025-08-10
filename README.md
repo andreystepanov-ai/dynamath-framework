@@ -2,6 +2,10 @@
 
 This repository contains a skeleton for the Dynamath framework — a modular implementation of *Dynamic Mathematics*, unifying mathematics, semantics, and cognition.
 
+Details: https://zenodo.org/records/16762105 
+Visualization linked to work: https://dynamath-dynaflow.vercel.app/ 
+
+
 ## Project structure
 
 - **core**: Rust library implementing the formal ontology (entities, relations, dynamic graphs, energy, entropy, fields).
